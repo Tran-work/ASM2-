@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Perandory-Regular';
+  src: url('Perandory-Regular.otf') format('opentype');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Perandory-Regular', sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+button {
+  font-family: 'Perandory-Regular', sans-serif;
+  font-size: 20px;
+  background-color: #021024;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+  color: #021024;
+}
